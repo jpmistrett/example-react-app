@@ -1,0 +1,54 @@
+.Meal {
+    display:block;
+    border-radius: 1.5rem;
+    text-align: center;
+    font-family: 'Helvetica', sans-serif;
+}
+
+.Meal.Selected {
+    background-color: var(--selectedMealColor);
+}
+
+.Meal .MealIcon {
+    margin-bottom: 1.2rem;
+}
+
+.Meal--Past {
+    opacity: 0.5;
+}
+
+.Meal__Title {
+    font-family: 'Lora', sans-serif;
+    font-size: 2.4rem;
+    padding-bottom: 1.6rem;
+    letter-spacing: -0.02em;
+}
+
+.Meal__AlreadyServed {
+    display: inline-block;
+    font-size: 1.3rem;
+    line-height: 2.4rem;
+    padding: 0.3rem 4.8rem;
+    background-color: var(--collegeChefsLightGray);
+    color: var(--collegeChefsGray);
+    border-radius: var(--inputBorderRadius);
+}
+
+.Meal__CutoffTime{
+    letter-spacing: -0.02em;
+    font-weight: bold;
+    font-family: var(--bodyFontFamily);
+    font-size: var(--bodyFontSize);
+    color: var(--collegeChefsGray)
+
+}
+.Meal--Active .Meal__CutoffTime {
+    color: var(--collegeChefsRed);
+}
+
+.Meal__Entree {
+    font-family: var(--bodyFontFamily);
+    font-size: var(--bodyFontSize);
+    line-height: 1.5em;
+    margin: 0 2em;
+}

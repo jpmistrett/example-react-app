@@ -1,0 +1,55 @@
+.LoginUI {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: center;
+    min-height: 40rem;
+    height: 80%;
+    padding: 0 2.4rem 0 2.4rem;
+    font-family: 'Lora', sans-serif;
+}
+
+.LoginUI h1 {
+    font-weight: normal;
+    font-size: 2.4rem;
+    margin: unset;
+}
+
+.loginInputs input{
+    margin: 0 auto 2rem auto;
+}
+
+.loginInputs {
+    text-align: start;
+}
+
+.loginInputs img {
+    padding-right: 1rem;
+}
+
+.loginNavigation img {
+    padding-left: 1rem;
+}
+
+.loginNavigation p, .LoginUI p{
+    font-size: 1.6rem;
+    margin-bottom: unset;
+}
+
+a {
+    color: var(--collegeChefsRed);
+    text-decoration: none;
+    font-size: 1.6rem;
+    align-self: flex-start;
+}
+
+.LoginPage .CollegeChefLogo {
+    margin: 0 auto;
+}
+
+.LoginPage {
+    height: 100%;
+}
+
+
+
